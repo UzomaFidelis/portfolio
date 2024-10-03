@@ -1,0 +1,37 @@
+@use "../abstracts/variables" as vars;
+
+.pricing {
+  background-color: vars.$red;
+  color: vars.$white;
+  padding: 4rem 1rem;
+  text-align: center;
+  margin-bottom: 4rem;
+
+  &-heading {
+    &--title {
+      color: vars.$black-text;
+      font-size: 1.1rem;
+      font-weight: 500;
+    }
+    &--subtitle {
+      text-transform: capitalize;
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+  }
+  &-text {
+    color: vars.$off-white;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    max-width: 35rem;
+  }
+  &-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.great {
+  color: vars.$black-text;
+  font-size: 2.5rem;
+}

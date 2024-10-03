@@ -1,0 +1,916 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container-lg">
+        <!-- Navbar start -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid nav-wrap">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#service">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#technologies">Technologies</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#portfolio">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- Navbar End -->
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Start -->
+      <section class="hero" id="home">
+        <div class="container-fluid">
+          <div class="row align-items-center">
+            <div class="col-sm-12">
+              <div class="hero-content">
+                <div class="hero-text">
+                  <h1 class="hero-name">
+                    <span class="i-am">I&apos;m</span>
+                    Fidelis Uzoma
+                  </h1>
+                  <p id="typewriter"></p>
+                </div>
+                <div class="hero-btn">
+                  <a
+                    class="btn btn-hero"
+                    href="./src/assets/files/fidelis-uzoma-developer-cv.pdf"
+                    download
+                    ><span
+                      ><img
+                        src="./src/assets/images/document.svg"
+                        alt=""
+                        class="btn-download-icon"
+                        aria-hidden
+                    /></span>
+                    Download CV</a
+                  >
+                  <a class="btn btn-hero" href="#contact">Contact Me</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Hero End -->
+      <!-- About Start -->
+      <section class="about" id="about">
+        <div class="container-lg">
+          <div class="row gy-5 align-items-center">
+            <div class="col-lg-6">
+              <div class="about-img-wrap">
+                <picture>
+                  <source
+                    media="(min-width: 996px)"
+                    srcset="./src/assets/images/about.jpg"
+                  />
+                  <img
+                    src="./src/assets/images/about-mobile.jpg"
+                    alt="Fidelis Uzoma"
+                    class="about-img"
+                  />
+                </picture>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="about-content">
+                <div class="section-header text-left">
+                  <h2 class="section-header--title">About Me</h2>
+                  <p class="section-header--subtitle">1+ Years Experience</p>
+                </div>
+                <div class="about-text">
+                  <p>
+                    I am a web developer with experience in both frontend and
+                    backend development, specializing in creating responsive and
+                    accessible web applications. I am proficient in setting up
+                    and maintaining databases, and ensure code quality by
+                    testing with frameworks like Jest. My expertise includes
+                    transforming designs into fully functional interfaces and
+                    optimizing applications for performance and usability. I am
+                    dedicated to delivering user-friendly experiences.
+                  </p>
+                </div>
+                <div class="skill">
+                  <div class="skill-name">
+                    <p>Front-end Development</p>
+                    <p>85%</p>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar"
+                      role="progressbar"
+                      data-value="85"
+                      aria-valuenow="85"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                  <div class="skill-name">
+                    <p>Back-End Development</p>
+                    <p>80%</p>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar"
+                      role="progressbar"
+                      data-value="80"
+                      aria-valuenow="80"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                  <div class="skill-name">
+                    <p>Testing</p>
+                    <p>80%</p>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar"
+                      role="progressbar"
+                      data-value="80"
+                      aria-valuenow="80"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <!-- <a class="btn btn-red" href="">Learn More</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About End -->
+
+      <!-- Service Start -->
+      <section class="service" id="service">
+        <div class="container-lg">
+          <div class="section-header text-center">
+            <h2 class="section-header--title">What I do</h2>
+            <p class="section-header--subtitle">Awesome Quality Services</p>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="service-item">
+                <div class="service-icon">
+                  <img
+                    src="./src/assets/images/web-development.svg"
+                    alt=""
+                    class="service-img"
+                    aria-hidden
+                  />
+                </div>
+                <div class="service-text">
+                  <h3 class="service-heading">Front-end Web Development</h3>
+                  <p>
+                    Responsive, user-friendly front-end design with focus on
+                    accesibility and performance.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="service-item">
+                <div class="service-icon">
+                  <img
+                    src="./src/assets/images/server.svg"
+                    alt=""
+                    class="service-img"
+                    aria-hidden
+                  />
+                </div>
+                <div class="service-text">
+                  <h3 class="service-heading">Back-end Web Development</h3>
+                  <p>
+                    Secure and scalable server side development ensuring
+                    seamless integration with front-end.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="service-item">
+                <div class="service-icon">
+                  <img
+                    src="./src/assets/images/database.svg"
+                    alt=""
+                    class="service-img"
+                    aria-hidden
+                  />
+                </div>
+                <div class="service-text">
+                  <h3 class="service-heading">Database Management</h3>
+                  <p>
+                    Design, implement and maintain efficient databases ensuring
+                    data integrity, security and high availability.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Service End -->
+
+      <!-- Technologies Start -->
+      <section class="technologies" id="technologies">
+        <div class="container-lg">
+          <div class="technologies-header text-center">
+            <h2 class="section-header--title">What I use</h2>
+            <p class="section-header--subtitle">
+              Proficient in Relevant Frameworks
+            </p>
+          </div>
+          <div class="row gy-5 gx-5">
+            <div class="col-lg-6">
+              <div class="technologies-item">
+                <div class="technologies-text">
+                  <h3 class="technologies-heading">Front-end</h3>
+                  <div class="row gy-3 technologies-group">
+                    <div class="col-6 col-sm-4 technologies-icon">
+                      <span class="technologies-icon-wrap">
+                        <img
+                          src="./src/assets/images/react.svg"
+                          alt="React js"
+                          class="technologies-img"
+                      /></span>
+                    </div>
+                    <div class="col-6 col-sm-4 technologies-icon">
+                      <span class="technologies-icon-wrap">
+                        <img
+                          src="./src/assets/images/nextjs.svg"
+                          alt="Next js"
+                          class="technologies-img"
+                      /></span>
+                    </div>
+                    <div class="col-6 col-sm-4 technologies-icon">
+                      <span class="technologies-icon-wrap">
+                        <img
+                          src="./src/assets/images/angular.svg"
+                          alt="Angular js"
+                          class="technologies-img"
+                      /></span>
+                    </div>
+                    <div class="col-6 col-sm-4 technologies-icon">
+                      <span class="technologies-icon-wrap">
+                        <img
+                          src="./src/assets/images/scss.svg"
+                          alt="Sass"
+                          class="technologies-img"
+                      /></span>
+                    </div>
+                    <div class="col-6 col-sm-4 technologies-icon">
+                      <span class="technologies-icon-wrap">
+                        <img
+                          src="./src/assets/images/tailwindcss.svg"
+                          alt="Sass"
+                          class="technologies-img"
+                      /></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="technologies-item">
+                <div class="technologies-text">
+                  <h3 class="technologies-heading">Back-end</h3>
+                  <div class="row gy-3 technologies-group">
+                    <div class="col-6 col-sm-4 technologies-icon">
+                      <span class="technologies-icon-wrap">
+                        <img
+                          src="./src/assets/images/django.svg"
+                          alt="Django python"
+                          class="technologies-img"
+                      /></span>
+                    </div>
+                    <div class="col-6 col-sm-4 technologies-icon">
+                      <span class="technologies-icon-wrap">
+                        <img
+                          src="./src/assets/images/flask.svg"
+                          alt="Flask python"
+                          class="technologies-img"
+                      /></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="technologies-item">
+                <div class="technologies-text">
+                  <h3 class="technologies-heading">Database</h3>
+                  <div class="row gy-3 technologies-group">
+                    <div class="col-6 col-sm-4 technologies-icon">
+                      <span class="technologies-icon-wrap">
+                        <img
+                          src="./src/assets/images/mongo.svg"
+                          alt="Mongo database"
+                          class="technologies-img"
+                      /></span>
+                    </div>
+                    <div class="col-6 col-sm-4 technologies-icon">
+                      <span class="technologies-icon-wrap">
+                        <img
+                          src="./src/assets/images/postgresql.svg"
+                          alt="PostgreSQL"
+                          class="technologies-img"
+                      /></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="technologies-item">
+                <div class="technologies-text">
+                  <h3 class="technologies-heading">Testing</h3>
+                  <div class="row gy-3 technologies-group">
+                    <div class="col-6 col-sm-4 technologies-icon">
+                      <span class="technologies-icon-wrap">
+                        <img
+                          src="./src/assets/images/jest.svg"
+                          alt="Jest testing"
+                          class="technologies-img"
+                      /></span>
+                    </div>
+                    <div class="col-6 col-sm-4 technologies-icon">
+                      <span class="technologies-icon-wrap">
+                        <img
+                          src="./src/assets/images/playwright.svg"
+                          alt="Playwright automated testing"
+                          class="technologies-img"
+                      /></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Technologies End -->
+
+      <!-- Pricing -->
+      <section id="pricing" class="pricing text-center">
+        <div class="container-lg pricing-wrap">
+          <div class="pricing-header">
+            <h2 class="pricing-heading--title text-center">Reasonable Price</h2>
+            <p class="pricing-heading--subtitle">
+              Get a <span class="great">great</span> deal
+            </p>
+          </div>
+          <p class="pricing-text">
+            Contact me to discuss your project. We will look at your project
+            plan and requirements and I will provide you a timeline for the
+            project completion at a price that works for you.
+          </p>
+          <a class="btn btn-mono" href="#contact">Contact Me</a>
+        </div>
+      </section>
+      <!-- Pricing -->
+
+      <!-- Portfolio Projects Start -->
+      <section id="portfolio" class="portfolio">
+        <div class="container-lg">
+          <div class="section-header text-center">
+            <h2 class="section-header--title">My Porfolio</h2>
+            <p class="section-header--subtitle">See demos of Projects</p>
+          </div>
+          <div
+            class="btn-group filters-button-group"
+            role="group"
+            data-toggle="button"
+            aria-label="filter projects"
+          >
+            <button
+              type="button"
+              class="filter-button btn btn-filter active"
+              data-filter="*"
+            >
+              All
+            </button>
+            <button
+              type="button"
+              class="filter-button btn btn-filter"
+              data-filter=".website"
+            >
+              Website
+            </button>
+            <button
+              type="button"
+              class="filter-button btn btn-filter"
+              data-filter=".application"
+            >
+              Application
+            </button>
+            <button
+              type="button"
+              class="filter-button btn btn-filter"
+              data-filter=".component"
+            >
+              Component
+            </button>
+          </div>
+
+          <div class="row gy-5 gx-5 portfolio-container">
+            <div class="portfolio-item col-xl-4 col-md-6 col-sm-12 website">
+              <div class="portfolio-wrap">
+                <div class="portfolio-img-wrap">
+                  <img
+                    src="./src/assets/images/portfolio/audiophile.png"
+                    alt="audiophile home page"
+                    class="portfolio-img"
+                  />
+                </div>
+                <div class="portfolio-text">
+                  <ul class="portfolio-techstack" aria-label="tech stack">
+                    <li>
+                      <img
+                        src="./src/assets/images/nextjs.svg"
+                        alt="next.js"
+                        class="portfolio-icon"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="./src/assets/images/tailwindcss.svg"
+                        alt="tailwind css"
+                        class="portfolio-icon"
+                      />
+                    </li>
+                  </ul>
+                  <p class="project-name">Audiophile</p>
+                  <div class="project-links">
+                    <a
+                      href="https://audiophile-7h7e.vercel.app"
+                      class="btn btn-demo"
+                      >Live Demo</a
+                    >
+                    <a
+                      href="https://github.com/UzomaFidelis/audiophile"
+                      class="btn btn-code"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item col-xl-4 col-md-6 col-sm-12 website">
+              <div class="portfolio-wrap">
+                <div class="portfolio-img-wrap">
+                  <img
+                    src="./src/assets/images/portfolio/space-tourism.png"
+                    alt="audiophile home page"
+                    class="portfolio-img"
+                  />
+                </div>
+                <div class="portfolio-text">
+                  <ul class="portfolio-techstack" aria-label="tech stack">
+                    <li>
+                      <img
+                        src="./src/assets/images/react.svg"
+                        alt="react.js"
+                        class="portfolio-icon"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="./src/assets/images/tailwindcss.svg"
+                        alt="tailwind css"
+                        class="portfolio-icon"
+                      />
+                    </li>
+                  </ul>
+                  <p class="project-name">Space Tourism</p>
+                  <div class="project-links">
+                    <a
+                      href="https://space-tourism-site-indol.vercel.app"
+                      class="btn btn-demo"
+                      >Live Demo</a
+                    >
+                    <a
+                      href="https://github.com/UzomaFidelis/space-tourism-site"
+                      class="btn btn-code"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item col-xl-4 col-md-6 col-sm-12 component">
+              <div class="portfolio-wrap">
+                <div class="portfolio-img-wrap">
+                  <img
+                    src="./src/assets/images/portfolio/sneakers-product.png"
+                    alt="sneaker product page"
+                    class="portfolio-img"
+                  />
+                </div>
+                <div class="portfolio-text">
+                  <ul class="portfolio-techstack" aria-label="tech stack">
+                    <li>
+                      <img
+                        src="./src/assets/images/react.svg"
+                        alt="react.js"
+                        class="portfolio-icon"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="./src/assets/images/scss.svg"
+                        alt="sass"
+                        class="portfolio-icon"
+                      />
+                    </li>
+                  </ul>
+                  <p class="project-name">Sneaker Product Page</p>
+                  <div class="project-links">
+                    <a
+                      href="https://ecommerce-product-page-ashy.vercel.app"
+                      class="btn btn-demo"
+                      >Live Demo</a
+                    >
+                    <a
+                      href="https://github.com/UzomaFidelis/ecommerce-product-page"
+                      class="btn btn-code"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item col-xl-4 col-md-6 col-sm-12 website">
+              <div class="portfolio-wrap">
+                <div class="portfolio-img-wrap">
+                  <img
+                    src="./src/assets/images/portfolio/designo.png"
+                    alt="designo home page"
+                    class="portfolio-img"
+                  />
+                </div>
+                <div class="portfolio-text">
+                  <ul class="portfolio-techstack" aria-label="tech stack">
+                    <li>
+                      <img
+                        src="./src/assets/images/nextjs.svg"
+                        alt="next.js"
+                        class="portfolio-icon"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="./src/assets/images/tailwindcss.svg"
+                        alt="tailwind css"
+                        class="portfolio-icon"
+                      />
+                    </li>
+                  </ul>
+                  <p class="project-name">Designo</p>
+                  <div class="project-links">
+                    <a
+                      href="https://designo-two-psi.vercel.app"
+                      class="btn btn-demo"
+                      >Live Demo</a
+                    >
+                    <a
+                      href="https://github.com/UzomaFidelis/designo"
+                      class="btn btn-code"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item col-xl-4 col-md-6 col-sm-12 website">
+              <div class="portfolio-wrap">
+                <div class="portfolio-img-wrap">
+                  <img
+                    src="./src/assets/images/portfolio/payapi.png"
+                    alt="payapi home page"
+                    class="portfolio-img"
+                  />
+                </div>
+                <div class="portfolio-text">
+                  <ul class="portfolio-techstack" aria-label="tech stack">
+                    <li>
+                      <img
+                        src="./src/assets/images/nextjs.svg"
+                        alt="next.js"
+                        class="portfolio-icon"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="./src/assets/images/tailwindcss.svg"
+                        alt="tailwind css"
+                        class="portfolio-icon"
+                      />
+                    </li>
+                  </ul>
+                  <p class="project-name">Payapi</p>
+                  <div class="project-links">
+                    <a
+                      href="https://payapi-rosy.vercel.app"
+                      class="btn btn-demo"
+                      >Live Demo</a
+                    >
+                    <a
+                      href="https://github.com/UzomaFidelis/payapi"
+                      class="btn btn-code"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item col-xl-4 col-md-6 col-sm-12 component">
+              <div class="portfolio-wrap">
+                <div class="portfolio-img-wrap">
+                  <img
+                    src="./src/assets/images/portfolio/multi-step-form.png"
+                    alt="multi step form"
+                    class="portfolio-img"
+                  />
+                </div>
+                <div class="portfolio-text">
+                  <ul class="portfolio-techstack" aria-label="tech-stack">
+                    <li>
+                      <img
+                        src="./src/assets/images/react.svg"
+                        alt="react.js"
+                        class="portfolio-icon"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="./src/assets/images/scss.svg"
+                        alt="sass"
+                        class="portfolio-icon"
+                      />
+                    </li>
+                  </ul>
+                  <p class="project-name">Multi step form</p>
+                  <div class="project-links">
+                    <a
+                      href="https://lorem-gaming-multi-step-form.vercel.app"
+                      class="btn btn-demo"
+                      >Live Demo</a
+                    >
+                    <a
+                      href="https://github.com/UzomaFidelis/multi-step-form"
+                      class="btn btn-code"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item col-xl-4 col-md-6 col-sm-12 website">
+              <div class="portfolio-wrap">
+                <div class="portfolio-img-wrap">
+                  <img
+                    src="./src/assets/images/portfolio/loopstudios.png"
+                    alt="designo home page"
+                    class="portfolio-img"
+                  />
+                </div>
+                <div class="portfolio-text">
+                  <ul class="portfolio-techstack" aria-label="tech stack">
+                    <li>
+                      <img
+                        src="./src/assets/images/nextjs.svg"
+                        alt="next.js"
+                        class="portfolio-icon"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="./src/assets/images/tailwindcss.svg"
+                        alt="tailwind css"
+                        class="portfolio-icon"
+                      />
+                    </li>
+                  </ul>
+                  <p class="project-name">Loopstudios Landing Page</p>
+                  <div class="project-links">
+                    <a
+                      href="https://loopstudios-puce.vercel.app"
+                      class="btn btn-demo"
+                      >Live Demo</a
+                    >
+                    <a
+                      href="https://github.com/UzomaFidelis/loopstudios"
+                      class="btn btn-code"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item col-xl-4 col-md-6 col-sm-12 website">
+              <div class="portfolio-wrap">
+                <div class="portfolio-img-wrap">
+                  <img
+                    src="./src/assets/images/portfolio/blogr.png"
+                    alt="blogr home page"
+                    class="portfolio-img"
+                  />
+                </div>
+                <div class="portfolio-text">
+                  <ul class="portfolio-techstack">
+                    <p class="sr-only">Tech stack</p>
+                    <li>
+                      <img
+                        src="./src/assets/images/react.svg"
+                        alt="react.js"
+                        class="portfolio-icon"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="./src/assets/images/tailwindcss.svg"
+                        alt="tailwind css"
+                        class="portfolio-icon"
+                      />
+                    </li>
+                  </ul>
+                  <p class="project-name">Blogr Landing Page</p>
+                  <div class="project-links">
+                    <a
+                      href="https://blogr-landing-page-azure-tau.vercel.app"
+                      class="btn btn-demo"
+                      >Live Demo</a
+                    >
+                    <a
+                      href="https://github.com/UzomaFidelis/blogr-landing-page"
+                      class="btn btn-code"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item col-xl-4 col-md-6 col-sm-12 application">
+              <div class="portfolio-wrap">
+                <div class="portfolio-img-wrap">
+                  <img
+                    src="./src/assets/images/portfolio/todo.png"
+                    alt="Todo app"
+                    class="portfolio-img"
+                  />
+                </div>
+                <div class="portfolio-text">
+                  <ul class="portfolio-techstack" aria-label="tech stack">
+                    <li>
+                      <img
+                        src="./src/assets/images/react.svg"
+                        alt="react.js"
+                        class="portfolio-icon"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="./src/assets/images/tailwindcss.svg"
+                        alt="tailwind css"
+                        class="portfolio-icon"
+                      />
+                    </li>
+                  </ul>
+                  <p class="project-name">Simple Todo App</p>
+                  <div class="project-links">
+                    <a
+                      href="https://todo-app-black-one.vercel.app"
+                      class="btn btn-demo"
+                      >Live Demo</a
+                    >
+                    <a
+                      href="https://github.com/UzomaFidelis/todo-app"
+                      class="btn btn-code"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Portfolio Projects End -->
+
+      <!-- Contact Start -->
+      <section id="contact" class="contact">
+        <div class="container-lg contact-wrap">
+          <form
+            action="https://formspree.io/f/xanwrzbo"
+            class="contact-form"
+            id="contact-form"
+            method="post"
+            novalidate
+          >
+            <div class="form-input-wrap">
+              <label for="name" class="sr-only">your name</label>
+              <input
+                type="text"
+                name="name"
+                placeholder="Your Name"
+                id="name"
+                class="contact-input"
+              />
+              <span id="form-name-error" class="form-error"></span>
+            </div>
+
+            <div class="form-input-wrap">
+              <label for="email" class="sr-only">your email</label>
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                id="email"
+                class="contact-input"
+              />
+              <span id="form-email-error" class="form-error"></span>
+            </div>
+
+            <div class="form-input-wrap">
+              <label for="subject" class="sr-only">message subject</label>
+              <input
+                type="text"
+                name="subject"
+                placeholder="Subject"
+                id="subject"
+                class="contact-input"
+              />
+              <span id="form-subject-error" class="form-error"></span>
+            </div>
+
+            <div class="form-input-wrap">
+              <label for="message" class="sr-only">message body</label>
+              <textarea
+                rows="5"
+                cols="20"
+                name="message"
+                placeholder="Message"
+                id="message"
+                class="contact-input"
+              ></textarea>
+              <span id="form-message-error" class="form-error"></span>
+            </div>
+            <button type="submit" class="btn btn-mono">Send Message</button>
+          </form>
+        </div>
+      </section>
+      <!-- Contact End -->
+    </main>
+    <!-- Footer Start -->
+    <footer class="footer">
+      <h2 class="sr-only">Contact Details</h2>
+      <p class="footer-name">Fidelis Uzoma</p>
+      <p>Ayobo, Lagos, Nigeria.</p>
+      <p>+234-9065056982 | fidelisuzoma99@gmail.com</p>
+      <div class="social-links">
+        <div class="social-links-icon"></div>
+        <div class="social-links-icon"></div>
+      </div>
+    </footer>
+    <!-- Footer  End -->
+    <script type="module" src="./src/js/main.js"></script>
+    <script type="module" src="./src/js/vendor.js"></script>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+@use "../abstracts/variables" as vars;
+
+@import "navbar";
+@import "hero";
+@import "about";
+@import "services";
+@import "technologies";
+@import "pricing";
+@import "portfolio";
+@import "footer";
+@import "contact";
+
+.section-header {
+  &--title {
+    text-transform: uppercase;
+    color: vars.$gray;
+    font-weight: 600;
+    font-size: 1.1rem;
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+    position: relative;
+
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 30px;
+      height: 3px;
+      background-color: vars.$red;
+    }
+    &::after {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 1.5rem;
+      width: 3px;
+      height: 15px;
+      background-color: white;
+    }
+  }
+  &--subtitle {
+    text-transform: capitalize;
+    text-align: left;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.1;
+    color: vars.$black-text;
+  }
+}

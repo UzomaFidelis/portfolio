@@ -1,0 +1,40 @@
+@use "../abstracts/variables" as vars;
+
+.navbar {
+  border-bottom: 1px solid vars.$gray;
+  &-brand {
+    font-weight: 700;
+  }
+}
+.nav {
+  &-wrap {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  &-link {
+    &:hover {
+      color: vars.$red;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    border-bottom: 1px solid rgba(vars.$red, 0.7);
+
+    &-brand,
+    &-brand:hover,
+    &-brand:active,
+    &-brand:focus {
+      color: vars.$red;
+    }
+  }
+  .nav {
+    &-link {
+      color: vars.$white;
+      &.active {
+        color: #ddd !important;
+      }
+    }
+  }
+}

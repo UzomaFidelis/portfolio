@@ -1,0 +1,51 @@
+@use "../abstracts/variables" as vars;
+
+.technologies {
+  color: vars.$gray;
+  margin-bottom: 2rem;
+
+  &-img {
+    width: 100px;
+  }
+  &-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+    &-wrap {
+      padding: 1rem;
+      box-shadow: 0 2px 5px vars.$shadow;
+      border-radius: 8px;
+      background-color: white;
+      transform: scale(0.6) rotate(45deg);
+      opacity: 0;
+      transition:
+        transform 500ms 200ms ease-in,
+        opacity 400ms 200ms ease-in;
+    }
+  }
+  &-group {
+    border: 2px solid vars.$red;
+    border-radius: 8px;
+    background-color: rgba(vars.$red, 0.03);
+    width: 100%;
+    padding: 1rem 0;
+  }
+  &-heading {
+    color: vars.$white;
+    background-color: rgba(vars.$black, 0.7);
+    width: fit-content;
+    padding: 0.1rem 0.6rem 0.2rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    align-self: flex-start;
+  }
+  &-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

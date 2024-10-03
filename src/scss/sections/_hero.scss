@@ -1,0 +1,63 @@
+@use "../abstracts/variables" as vars;
+
+.hero {
+  background-image: url(@/assets/images/hero-bg.jpg),
+    linear-gradient(to bottom, vars.$dark 80%, vars.$dark-red);
+  // background-color: vars.$black;
+  background-repeat: repeat-x;
+  background-blend-mode: darken;
+  text-align: center;
+  padding: 4rem 0;
+  color: white;
+
+  &-text {
+    margin-bottom: 2rem;
+  }
+
+  &-name {
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  &-btn {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+}
+
+.i-am {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+#typewriter {
+  font-size: 1.7rem;
+  color: vars.$red;
+}
+.btn-download-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+@media (min-width: 992px) {
+  .header {
+    background-color: vars.$black;
+  }
+  .hero {
+    height: 45rem;
+    display: flex;
+    align-items: center;
+
+    &-name {
+      font-size: 2rem;
+    }
+  }
+  #typewriter {
+    font-size: 3rem;
+  }
+  .i-am {
+    font-size: 1.3rem;
+  }
+}

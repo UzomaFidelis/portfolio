@@ -1,0 +1,54 @@
+@use "../abstracts/variables" as vars;
+
+.btn {
+  padding: 0.6rem 1.4rem;
+  &-hero {
+    background-color: vars.$red;
+    color: vars.$white;
+    &:hover {
+      background-color: vars.$white;
+      color: vars.$black-text;
+    }
+  }
+  &-red {
+    background-color: vars.$red;
+    color: white;
+    &:hover {
+      background-color: white;
+      border: 1px solid vars.$red;
+    }
+  }
+  &-black {
+    background-color: vars.$black;
+    color: white;
+    &:hover {
+      background-color: white;
+      border: 1px solid vars.$black;
+    }
+  }
+  &-mono {
+    background-color: vars.$black;
+    color: vars.$white;
+    &:hover {
+      background-color: vars.$white;
+      color: vars.$black;
+    }
+  }
+  &-filter {
+    background-color: vars.$red;
+    border: 1px solid transparent;
+
+    &:hover:not(.active) {
+      background-color: vars.$white;
+      border: 1px solid vars.$red;
+    }
+  }
+  &-demo {
+    @extend .btn-red;
+    padding: 0.3rem 1rem;
+  }
+  &-code {
+    @extend .btn-black;
+    padding: 0.3rem 1rem;
+  }
+}

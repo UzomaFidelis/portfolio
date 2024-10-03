@@ -1,0 +1,6 @@
+@mixin border-bottom($border-color) {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid $border-color;
+}

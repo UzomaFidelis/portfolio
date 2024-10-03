@@ -1,0 +1,13 @@
+@use "../abstracts/variables" as vars;
+
+.footer {
+  color: vars.$white;
+  background-color: vars.$black;
+  padding: 4rem 1rem;
+  text-align: center;
+
+  &-name {
+    font-weight: 600;
+    font-size: 1.3rem;
+  }
+}

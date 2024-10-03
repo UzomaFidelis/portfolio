@@ -1,0 +1,50 @@
+@use "../abstracts/variables" as vars;
+@use "../abstracts/mixins" as mxns;
+
+.contact {
+  background-color: vars.$red;
+  color: vars.$white;
+  padding: 4rem 1rem;
+  text-align: center;
+
+  &-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-form {
+    width: 100%;
+    max-width: 40rem;
+  }
+
+  &-input {
+    @include mxns.border-bottom(rgba(vars.$light-gray, 0.5));
+    color: vars.$white;
+    padding: 0 1rem 0.8rem;
+    background-color: transparent;
+    font-size: 1.2rem;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    outline: none;
+
+    &::placeholder {
+      color: vars.$light-gray;
+    }
+    &:hover {
+      @include mxns.border-bottom(rgba(vars.$light-gray, 0.9));
+    }
+  }
+}
+.form {
+  &-error {
+    color: vars.$light-gray;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 0.8rem;
+  }
+  &-input-wrap {
+    position: relative;
+  }
+}
