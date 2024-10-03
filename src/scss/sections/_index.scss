@@ -49,3 +49,11 @@
     color: vars.$black-text;
   }
 }
+.remove-x-pad {
+  padding-left: 0;
+  padding-right: 0;
+}
+.remove-x-margin {
+  margin-left: 0;
+  margin-right: 0;
+}

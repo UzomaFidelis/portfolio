@@ -3,6 +3,11 @@
 .portfolio {
   margin-bottom: 4rem;
 
+  &-item {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
   &-wrap {
     overflow: hidden;
     border-radius: 10px;
