@@ -25,7 +25,10 @@ window.onload = function () {
   // Init Isotope
   const iso = new Isotope(".portfolio-container", {
     itemSelector: ".portfolio-item",
-    layoutMode: "fitRows",
+    layoutMode: "masonry",
+    masonry: {
+      gutter: 10,
+    },
   });
 
   function markActiveBtn(buttonGroup, event) {

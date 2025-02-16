@@ -3,10 +3,14 @@
 .portfolio {
   margin-bottom: 4rem;
 
-  // &-item {
-  //   padding-right: 0;
-  //   padding-left: 0;
-  // }
+  &-container {
+    display: flex;
+  }
+
+  &-item {
+    padding-bottom: 20px;
+    width: 100%;
+  }
 
   &-wrap {
     overflow: hidden;
@@ -66,4 +70,20 @@
 .btn-group {
   flex-wrap: wrap;
   gap: 0.3rem;
+}
+
+@media (min-width: 600px) {
+  .portfolio {
+    &-item {
+      width: calc(50% - 10px);
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .portfolio {
+    &-item {
+      width: calc(33.33% - 10px);
+    }
+  }
 }
